@@ -9,7 +9,7 @@ article {
 }
 
 h1 {
-    font-size: 10em;
+    font-size: 6em;
     text-transform: uppercase;
     text-align: center;
 }
@@ -18,13 +18,13 @@ h1 {
 /*first frame*/
 
 .char1,
-.char8,
-.char10,
+.char9,
+.char12
 {
-    background: green;
-    box-shadow: inset 0 0 20px #fff;
-    border-bottom: .25em solid purple;
-    padding: 2em;
+    background: blue;
+    box-shadow: inset 0 0 8px #fff;
+    border-bottom: 20px solid light-blue;
+    padding: .25em;
     display: inline-block;
     transition: transform .5s;
 }
@@ -87,7 +87,7 @@ h1 {
   animation-name: rubberBand;
 }
 
-img:hover{
+article img:hover{
     animation: rubberband 1s infinite;
 }
 /********************
