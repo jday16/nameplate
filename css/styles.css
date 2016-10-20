@@ -21,6 +21,17 @@ h1 {
 }
 
 
+/*Links*/
+
+.facebook,
+.insta,
+.twitter {
+    height: 50px;
+    width: 50px;
+    background: transparent;
+    border-radius: 2.5em;
+}
+
 /*first frame*/
 
 .char1,
