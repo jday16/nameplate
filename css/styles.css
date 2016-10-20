@@ -1,6 +1,10 @@
 /********************
 YOUR STYLES
 *******************/
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+</style>
+
 
 article {
     background: grey;
