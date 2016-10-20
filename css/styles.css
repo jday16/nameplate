@@ -6,10 +6,12 @@ YOUR STYLES
 </style>
 
 
-article {
-    background: grey;
-    margin: 0 auto;
-    padding: 3em;
+body {
+    background-image: url(/nameplate/img/castle.jpg) no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
