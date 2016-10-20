@@ -7,7 +7,7 @@ YOUR STYLES
 
 
 body {
-    background-image: url(/nameplate/img/castle.jpg) no-repeat;
+    background-image: url(//img/castle.jpg) no-repeat;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
