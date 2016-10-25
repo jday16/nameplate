@@ -4,7 +4,13 @@ YOUR STYLES
 
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
-
+.me {
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 4em;
+}
 
 body {
     background-image: url(//img/castle.jpg) no-repeat;
@@ -22,6 +28,10 @@ h1 {
 
 
 /*Links*/
+nav li {
+    display: inline-block;
+    margin: auto;
+}
 
 .facebook,
 .insta,
@@ -30,6 +40,9 @@ h1 {
     width: 50px;
     background: transparent;
     border-radius: 2.5em;
+    text-align: center;
+    display: block;
+    margin: 0 auto; 
 }
 
 /*first frame*/
@@ -46,6 +59,12 @@ h1 {
     transition: transform .5s;
 }
 
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    padding: 1em;
+    transition: all .5s;
+}
 
 /*last frame*/
 
@@ -61,8 +80,13 @@ h1 {
     transform: rotate(10deg) scale();
 }
 
+nav a:hover,
+nav a:active {
+    margin-left: .5em;
+}
+
 /*keyfram animation*/
-@keyframes rubberBand {
+@keyframes rubberband {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
