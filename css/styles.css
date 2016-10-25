@@ -28,8 +28,15 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
  .bio,
-. {
+.obesession {
     padding: 1em;
     display: block;
     color: white;
@@ -60,11 +67,11 @@ nav li {
 
 .char1,
 .char9,
-.char11
+.char12
 {
-    background: blue;
+    background: white;
     box-shadow: inset 0 0 8px #fff;
-    border-bottom: 20px solid light-blue;
+    border-bottom: 20px solid grey;
     padding: .25em;
     display: inline-block;
     transition: transform .5s;
@@ -83,11 +90,11 @@ nav a:visited {
     transform: rotate(-5deg) scale();
 }
 
-.char8:hover {
+.char9:hover {
     transform: rotate(15deg)scale();
 }
 
-.char10:hover {
+.char12:hover {
     transform: rotate(10deg) scale();
 }
 
