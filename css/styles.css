@@ -2,7 +2,10 @@
 YOUR STYLES
 *****************/
 
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+article {
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .5);
+}
 
 .me {
     width: 600px;
@@ -25,7 +28,15 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
-
+ .bio,
+. {
+    padding: 1em;
+    display: block;
+    color: white;
+    font-size=" 2em;
+    text-align: center;
+    margin-top: 40px;
+}
 
 /*Links*/
 nav li {
