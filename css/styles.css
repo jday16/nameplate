@@ -29,10 +29,12 @@ h1 {
     text-align: center;
 }
 
+
 h3 {
     color: white;
     text-transform: uppercase;
     text-align: center; 
+    font-size: 2.5em;
 }
 
  .bio,
